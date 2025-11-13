@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nmap CI/CD Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Scanning & Enumeration with Nmap – CI/CD Pipeline</h1>
+    <p>Automated Nmap scan executed through GitHub Actions.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Project Overview</h2>
+      <p>This website explains my GitHub Actions pipeline that runs Nmap scans automatically and uploads results as artifacts.</p>
+    </section>
+
+    <section>
+      <h2>Repository Link</h2>
+      <p><a href="https://github.com/muthiyansakshi219-dotcom/nmap-ci-pipeline" target="_blank">
+        View CI/CD Pipeline Repo on GitHub
+      </a></p>
+    </section>
+
+    <section>
+      <h2>Output Summary</h2>
+      <p>The pipeline executes <code>nmap -A localhost</code> and saves the output to <code>nmap_results.txt</code>.</p>
+      <button id="showMessage">Click to View Result Message</button>
+      <p id="resultArea"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Sakshi Vijaykumar Muthiyan | JaiHind College of Engineering, Kuran</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
